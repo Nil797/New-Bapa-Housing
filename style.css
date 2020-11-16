@@ -8,7 +8,7 @@ section {
   transition: all .5s ease;
 }
 .navbar {
-  background-color: #ff7260;
+  background-color: #871b1b;
   width: 200px;
   position: absolute;
   left: 0;
@@ -23,14 +23,13 @@ section {
 }
 #navbar_icon {
   position: relative;
-  top: 3vh;
-  
+  top: 3vh; 
 }
 #navbar_icon:hover {
   color: black;
 }
 .navbar a {
-  color: white;
+  color: #f0e8a3;
   text-decoration: none;
   font-size: 20px;
   -webkit-transition: all .5s ease;
@@ -49,4 +48,18 @@ section {
 }
 .navbar ul li {
   margin-bottom: 10vh;
+}
+.title-name{
+  background-color: #871b1b;
+  color: #f0e8a3;
+  font-size: 90px; 
+  top: 0;
+  text-align: center;
+}
+.company-logo{
+  height: 100px;
+  width: 100px;
+}
+body{
+  margin:0px;
 }
