@@ -74,13 +74,14 @@ body{
  width: 200px;
  Height: 200px;
  border-color:#871b1b;
+ text-align: center;
 }
 
 
 
 
 
-html, body{ background-color:#1a948d; }	
+html, body{ background-color:#f0e8a3; }	
 
 body
 { 
@@ -93,7 +94,7 @@ body
 	min-height:1000px;
 	overflow:hidden;
 	font-family: 'quicksandlight', Helvetica, Arial;
-	color:#FFFFFF;
+	color:#871b1b;
 	text-shadow: -1px -1px 4px rgba(0, 0, 0, .35);
     filter: dropshadow(color=#000000, offx=1, offy=1);
 }
@@ -199,9 +200,9 @@ a:hover
 		width:320px;
 		height:130px;
 		position:absolute;
-		background-color:rgba(255, 255, 255, .75);
+		background-color:#871b1b;
 		border:10px solid rgba(255, 255, 255, .5);
-		color:aqua;
+		color:#f0e8a3;
 		font-size:72px;
 		left:50%;
 		top:50%;
