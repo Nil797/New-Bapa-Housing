@@ -91,45 +91,41 @@ body {
 	text-align: left;
 }
 
- 
+
 
 .location-text {
-	height: 500px;
-	width: 500px;
+	height: 450px;
+	width: 600px;
 	background-color: #871b1b;
 	color: #f0e8a3;
-	position:absolute;
-	visibility: visible;
-	right: 340px;
-	top: 200px;
-	
-	
-}
-
-.pictures {
 	position: absolute;
-	margin-left: 10px;
-	margin-top: 10px;
-	left: 50%;
-	top: 50%;
+	visibility: visible;
+	right: 155px;
+	top: 174px;
+	font-size: 39px;
+	font: arial;
+	text-align: center;
 }
 
-html,
-body {
-	background-color: #f0e8a3;
-}
 
-body {
-	background-image: url('../images/background.jpg');
-	background-repeat: no-repeat;
-	background-position: top center;
-	width: 100%;
-	background-size: cover;
-	height: 100%;
-	min-height: 1000px;
 
-	font-family: 'quicksandlight', Helvetica, Arial;
-	filter: dropshadow(color=#000000, offx=1, offy=1);
+
+
+
+	
+html, body{ background-color:#f0e8a3; }	
+
+	body {
+		background-image: url('../images/background.jpg');
+		background-repeat: no-repeat;
+		background-position: top center;
+		width: 100%;
+		background-size: cover;
+		height: 100%;
+		min-height: 1000px;
+
+		font-family: 'quicksandlight', Helvetica, Arial;
+		filter: dropshadow(color=#000000, offx=1, offy=1);
 
 	}
 
@@ -234,8 +230,15 @@ body {
 		margin-left: -160px;
 		margin-top: -90px;
 		text-align: center;
-		padding-top: 50px;
-		overflow: hidden;
-
+		
+		
 	}
+
+	.carouselItemInner > img {
+		width: 320px;
+		height: 130px;
+		
+	}
+
+
 	
