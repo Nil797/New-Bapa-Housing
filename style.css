@@ -106,6 +106,9 @@ body {
 	font: arial;
 	text-align: center;
 }
+footer{
+	background-color
+}
 
 
 
@@ -237,8 +240,251 @@ html, body{ background-color:#f0e8a3; }
 	.carouselItemInner > img {
 		width: 320px;
 		height: 130px;
-		
+
 	}
-
-
-	
+/*THE MEDIA QUERY FOR THE IPAD*/
+@media only screen and (max-width: 900px) {
+		section {
+			margin-left: 200px;
+			width: 70%;
+			-webkit-transition: all .5s ease;
+			-moz-transition: all .5s ease;
+			-o-transition: all .5s ease;
+			-ms-transition: all .5s ease;
+			transition: all .5s ease;
+		}
+		
+		.navbar {
+			background-color: #177e7e;
+			width: 200px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			text-align: center;
+			overflow: hidden;
+		}
+		
+		.navbar,
+		.navbar ul {
+			padding: 0;
+			margin: 0;
+		}
+		
+		#navbar_icon {
+			position: relative;
+			top: 3vh;
+		}
+		
+		#navbar_icon:hover {
+			color: black;
+		}
+		
+		.navbar a {
+			color: #f0e8a3;
+			text-decoration: none;
+			font-size: 20px;
+			-webkit-transition: all .5s ease;
+			-moz-transition: all .5s ease;
+			-o-transition: all .5s ease;
+			-ms-transition: all .5s ease;
+			transition: all .5s ease;
+		}
+		
+		.navbar ul a:hover {
+			font-size: 25px;
+			color: #fffc63;
+		}
+		
+		.navbar ul {
+			list-style: none;
+			margin-top: 10vh;
+		}
+		
+		.navbar ul li {
+			margin-bottom: 10vh;
+		}
+		
+		.title-name {
+			background-color: #157a12;
+			color: #f0e8a3;
+			font-size: 90px;
+			top: 0;
+			text-align: center;
+		}
+		
+		.company-logo {
+			height: 100px;
+			width: 100px;
+		}
+		
+		body {
+			margin: 0px;
+			margin-left: 55px;
+		}
+		
+		.sub-title {
+			background-color: #f0e8a3;
+			color: #3d51a8;
+			font-size: 45px;
+			text-align: center;
+		}
+		
+		.Map {
+			width: 200px;
+			Height: 200px;
+			border-color: #871b1b;
+			text-align: left;
+		}
+		
+		
+		
+		.location-text {
+			height: 450px;
+			width: 600px;
+			background-color: #871b1b;
+			color: #f0e8a3;
+			position: absolute;
+			visibility: visible;
+			right: 155px;
+			top: 174px;
+			font-size: 39px;
+			font: arial;
+			text-align: center;
+		}
+		
+		
+		
+		
+		
+		
+			
+		html, body{ background-color:#f0e8a3; }	
+		
+			body {
+				background-image: url('../images/background.jpg');
+				background-repeat: no-repeat;
+				background-position: top center;
+				width: 100%;
+				background-size: cover;
+				height: 100%;
+				min-height: 1000px;
+		
+				font-family: 'quicksandlight', Helvetica, Arial;
+				filter: dropshadow(color=#000000, offx=1, offy=1);
+		
+			}
+		
+			header {
+		
+				margin-top: 30px;
+				position: absolute;
+				z-index: 5;
+				width: 420px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+		
+			}
+		
+			h1 {
+		
+				font-size: 36px;
+				letter-spacing: -2.5px;
+				margin-left: 30px;
+			}
+		
+			h3 {
+		
+				font-size: 16px;
+				letter-spacing: -1.5px;
+				margin-top: 5px;
+				margin-left: 35px;
+			}
+		
+			#fps {
+				margin-top: 5px;
+				margin-left: 35px;
+			}
+		
+			a {
+				color: rgba(255, 255, 255, .65);
+				text-decoration: none;
+			}
+		
+			a:hover {
+				color: rgba(255, 255, 255, 1);
+			}
+		
+			/* hardware accelatator class */
+			.trans3d {
+				-webkit-transform-style: preserve-3d;
+				-webkit-transform: translate3d(0, 0, 0);
+				-moz-transform-style: preserve-3d;
+				-moz-transform: translate3d(0, 0, 0);
+				-ms-transform-style: preserve-3d;
+				-ms-transform: translate3d(0, 0, 0);
+				transform-style: preserve-3d;
+				transform: translate3d(0, 0, 0);
+		
+				/*-webkit-backface-visibility: hidden;
+				-moz-backface-visibility: hidden;
+				-ms-backface-visibility:hidden;
+				backface-visibility:hidden;*/
+			}
+		
+			#contentContainer {
+				position: absolute;
+				margin-left: -500px;
+				margin-top: -500px;
+				left: 50%;
+				top: 50%;
+				width: 1000px;
+				height: 1000px;
+			}
+		
+			#carouselContainer {
+				position: absolute;
+				margin-left: -500px;
+				margin-top: -500px;
+				left: 50%;
+				top: 50%;
+				width: 1000px;
+				height: 1000px;
+			}
+		
+			.carouselItem {
+				width: 320px;
+				height: 130px;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin-left: -160px;
+				margin-top: -90px;
+				visibility: hidden;
+			}
+		
+			.carouselItemInner {
+				width: 320px;
+				height: 130px;
+				position: absolute;
+				background-color: #871b1b;
+				border: 10px solid rgba(255, 255, 255, .5);
+				color: #f0e8a3;
+				font-size: 72px;
+				left: 50%;
+				top: 50%;
+				margin-left: -160px;
+				margin-top: -90px;
+				text-align: center;
+				
+				
+			}
+		
+			.carouselItemInner > img {
+				width: 320px;
+				height: 130px;
+		
+			}
+	  }
+	 
+			
