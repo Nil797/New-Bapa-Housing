@@ -107,7 +107,10 @@ body {
 	text-align: center;
 }
 footer{
-	background-color
+	background-color: #871b1b;
+	height: 70px;
+	top: 800px;
+
 }
 
 
@@ -243,7 +246,7 @@ html, body{ background-color:#f0e8a3; }
 
 	}
 /*THE MEDIA QUERY FOR THE IPAD*/
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
 		section {
 			margin-left: 200px;
 			width: 70%;
@@ -255,7 +258,7 @@ html, body{ background-color:#f0e8a3; }
 		}
 		
 		.navbar {
-			background-color: #177e7e;
+			background-color: #871b1b;
 			width: 200px;
 			position: absolute;
 			left: 0;
@@ -306,7 +309,7 @@ html, body{ background-color:#f0e8a3; }
 		}
 		
 		.title-name {
-			background-color: #157a12;
+			background-color: #871b1b;
 			color: #f0e8a3;
 			font-size: 90px;
 			top: 0;
@@ -325,7 +328,7 @@ html, body{ background-color:#f0e8a3; }
 		
 		.sub-title {
 			background-color: #f0e8a3;
-			color: #3d51a8;
+			color: #871b1b;
 			font-size: 45px;
 			text-align: center;
 		}
@@ -485,6 +488,5 @@ html, body{ background-color:#f0e8a3; }
 				height: 130px;
 		
 			}
-	  }
-	 
+		}
 			
