@@ -129,17 +129,29 @@ body {
 	background-color: #871b1b;
 	color: #f0e8a3;
 	font:arial;
-	font-size: 40px;
-	margin-top: 300px;
+	font-size: 28px;
+	margin-top: 310px;
 	text-align: center;
+	width: 1400px;
+	height: 120px;
 }
 .exteriorpic1{
 	height:510px;
-	width: 650px;
+	width: 670px;
 }
 .exteriorpic2{
 	height: 510px;
-	width: 717px;
+	width: 680px;
+}
+.interior-text{
+	background-color: #871b1b;
+	color: #f0e8a3;
+	font:arial;
+	font-size: 28px;
+	margin-top: 310px;
+	text-align: center;
+	width: 1367px;
+	height: 120px;
 }
 
 	
