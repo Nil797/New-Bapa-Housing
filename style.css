@@ -153,6 +153,16 @@ body {
 	width: 1367px;
 	height: 120px;
 }
+.floorplan{
+	width: 1367px;
+}
+.policies{
+	background-color: #871b1b;
+	color: #f0e8a3;
+	width: 1367px;
+	height: 1000px;
+	font-size: 45px;
+}
 
 	
 html, body{ background-color:#f0e8a3; }	
